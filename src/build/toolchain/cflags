@@ -1,0 +1,3 @@
+-march=rv32imc_zicsr_zifencei
+-mtune=esp-base
+"-specs=/home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src/build/specs/picolibc.specs"

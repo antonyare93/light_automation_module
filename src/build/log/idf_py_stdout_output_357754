@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] cd "/home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src/build" && /home/ariasantony/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/ariasantony/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/ariasantony/Documents/KiCad/00\ Pruebitas/light_automation_module/light_automation_module/src/build/partition_table/partition-table.bin /home/ariasantony/Documents/KiCad/00\ Pruebitas/light_automation_module/light_automation_module/src/build/blink_advanced.bin
+blink_advanced.bin binary size 0x296b0 bytes. Smallest app partition is 0x100000 bytes. 0xd6950 bytes (84%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd "/home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src/build/bootloader" && /home/ariasantony/.espressif/python_env/idf6.1_py3.14_env/bin/python /home/ariasantony/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x0 /home/ariasantony/Documents/KiCad/00\ Pruebitas/light_automation_module/light_automation_module/src/build/bootloader/bootloader.bin
+Bootloader binary size 0x5250 bytes. 0x2db0 bytes (36%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

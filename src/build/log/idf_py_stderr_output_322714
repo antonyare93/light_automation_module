@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/home/ariasantony/.espressif/python_env/idf6.1_py3.14_env/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

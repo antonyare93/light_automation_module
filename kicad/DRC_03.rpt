@@ -1,0 +1,113 @@
+** Drc report for light_automation_module.kicad_pcb **
+** Created on 2026-07-20T11:15:56 **
+** Report includes: Errors, Warnings **
+
+** Found 24 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(117.0000 mm, 72.4100 mm): Reference field of C8
+    @(115.7000 mm, 72.8300 mm): Reference field of R8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.6500 mm, 81.7300 mm): Reference field of D1
+    @(120.0000 mm, 83.2300 mm): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.7350 mm, 89.9913 mm): Segment of C2 on F.Silkscreen
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.7350 mm, 95.4913 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.5000 mm, 107.0800 mm): Reference field of R13
+    @(119.5000 mm, 106.3800 mm): Reference field of R12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(136.8500 mm, 107.8175 mm): Reference field of R3
+    @(136.2350 mm, 107.9571 mm): Segment of R4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.5000 mm, 72.8200 mm): Reference field of C7
+    @(152.5400 mm, 71.5000 mm): Pad 16 [/+3V3] of U4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+    @(125.0000 mm, 90.6800 mm): Pad 1 [/+3V3] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+    @(125.0000 mm, 88.7800 mm): Pad 2 [/GND] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.0000 mm, 96.1800 mm): Pad 1 [/+5V] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.0000 mm, 94.2800 mm): Pad 2 [/GND] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 103.2300 mm): Pad 8 [Net-(U2-FB)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 104.2300 mm): Pad 3 [Net-(U2-SW)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 103.2300 mm): Pad 1 [unconnected-(U2-PG-Pad1)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 103.7300 mm): Pad 2 [/+12V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 103.7300 mm): Pad 7 [Net-(U2-SS)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 104.2300 mm): Pad 6 [Net-(U2-EN)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.0000 mm, 113.5500 mm): Reference field of C9
+    @(115.5000 mm, 113.1425 mm): Pad 1 [/+12V] of R14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.5000 mm, 114.4100 mm): Reference field of C12
+    @(117.9500 mm, 115.2300 mm): Pad 2 [/GND] of C9 on F.Cu
+[lib_footprint_mismatch]: Footprint 'ESP32-WROOM-32E' does not match copy in library 'RF_Module'
+    Local override; warning
+    @(130.5000 mm, 69.7300 mm): Footprint U1
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(121.3000 mm, 63.7300 mm): Polygon of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(155.2200 mm, 114.3100 mm): Polygon of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(135.3800 mm, 118.7300 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(125.9800 mm, 118.7300 mm): Segment of J2 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

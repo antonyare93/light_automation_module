@@ -1,0 +1,577 @@
+** Drc report for light_automation_module.kicad_pcb **
+** Created on 2026-07-20T10:56:56 **
+** Report includes: Errors, Warnings **
+
+** Found 177 DRC violations **
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.4000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(130.4000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.7000 mm, 73.5900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.7000 mm, 72.1900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.7000 mm, 70.7900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.0000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(129.0000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.3000 mm, 73.5900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.3000 mm, 72.1900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(128.3000 mm, 70.7900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(127.6000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[drill_out_of_range]: Hole size out of range (board setup constraints min hole 0.3000 mm; actual 0.2000 mm)
+    Rule: board setup constraints; error
+    @(127.6000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4200 mm)
+    Rule: board setup constraints edge; error
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(135.0000 mm, 117.7800 mm): PTH pad SH [/GND] of J2
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.5000 mm; actual 0.4200 mm)
+    Rule: board setup constraints edge; error
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(126.3600 mm, 117.7800 mm): PTH pad SH [/GND] of J2
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2206 mm)
+    Local override; error
+    @(110.0014 mm, 103.7300 mm): Pad 2 [/+12V] of U2 on F.Cu
+    @(110.0014 mm, 103.2300 mm): Pad 1 [unconnected-(U2-PG-Pad1)] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2206 mm)
+    Local override; error
+    @(110.0014 mm, 104.2300 mm): Pad 3 [Net-(U2-SW)] of U2 on F.Cu
+    @(110.0014 mm, 103.7300 mm): Pad 2 [/+12V] of U2 on F.Cu
+[clearance]: Clearance violation ( clearance 0.2500 mm; actual 0.2206 mm)
+    Local override; error
+    @(110.0014 mm, 104.7300 mm): Pad 4 [/GND] of U2 on F.Cu
+    @(110.0014 mm, 104.2300 mm): Pad 3 [Net-(U2-SW)] of U2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(125.0000 mm, 88.5000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(144.5500 mm, 78.0625 mm): Via [/DTR] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 86.5000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.0000 mm, 80.5000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.2500 mm, 70.7500 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.5000 mm, 88.2500 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(126.5000 mm, 85.5000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(124.7500 mm, 82.5000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(154.5000 mm, 74.0000 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.5000 mm, 70.7500 mm): Via [/GND] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(152.5000 mm, 82.2500 mm): Via [/+3V3] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(141.3719 mm, 67.6219 mm): Via [/RXD0] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(141.6000 mm, 81.0000 mm): Via [/IO0] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(142.8000 mm, 81.0000 mm): Via [/IO0] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(146.2500 mm, 68.0000 mm): Via [/UD-] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(117.7500 mm, 85.5000 mm): Via [/EN] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(120.0000 mm, 67.0100 mm): Via [/EN] on F.Cu - B.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(156.0000 mm, 63.2500 mm): Zone 'GND' [/GND] on B.Cu, priority 0
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.4000 mm, 73.5900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.4000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.4000 mm, 72.1900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.4000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.4000 mm, 70.7900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.7000 mm, 73.5900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.7000 mm, 72.1900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.7000 mm, 70.7900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.0000 mm, 73.5900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.0000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.0000 mm, 72.1900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.0000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.0000 mm, 70.7900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(128.3000 mm, 73.5900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(128.3000 mm, 72.1900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(128.3000 mm, 70.7900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.6000 mm, 73.5900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.6000 mm, 72.8900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.6000 mm, 72.1900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.6000 mm, 71.4900 mm): PTH pad 39 [/GND] of U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.6000 mm, 70.7900 mm): Pad 39 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 67.0100 mm): Pad 36 [unconnected-(U1-IO22-Pad36)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 68.2800 mm): Pad 35 [/TXD0] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 69.5500 mm): Pad 34 [/RXD0] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 70.8200 mm): Pad 33 [unconnected-(U1-IO21-Pad33)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 72.0900 mm): Pad 32 [unconnected-(U1-NC-Pad32)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 73.3600 mm): Pad 31 [unconnected-(U1-IO19-Pad31)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 74.6300 mm): Pad 30 [unconnected-(U1-IO18-Pad30)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 75.9000 mm): Pad 29 [unconnected-(U1-IO5-Pad29)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 77.1700 mm): Pad 28 [unconnected-(U1-IO17-Pad28)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 78.4400 mm): Pad 27 [unconnected-(U1-IO16-Pad27)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 79.7100 mm): Pad 26 [unconnected-(U1-IO4-Pad26)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(139.2500 mm, 80.9800 mm): Pad 25 [/IO0] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(136.2150 mm, 82.2300 mm): Pad 24 [/LED_PWM] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(134.9450 mm, 82.2300 mm): Pad 23 [unconnected-(U1-IO15-Pad23)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(133.6750 mm, 82.2300 mm): Pad 22 [unconnected-(U1-NC-Pad22)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(132.4050 mm, 82.2300 mm): Pad 21 [unconnected-(U1-NC-Pad21)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(131.1350 mm, 82.2300 mm): Pad 20 [unconnected-(U1-NC-Pad20)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.8650 mm, 82.2300 mm): Pad 19 [unconnected-(U1-NC-Pad19)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(128.5950 mm, 82.2300 mm): Pad 18 [unconnected-(U1-NC-Pad18)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.3250 mm, 82.2300 mm): Pad 17 [unconnected-(U1-NC-Pad17)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(126.0550 mm, 82.2300 mm): Pad 16 [unconnected-(U1-IO13-Pad16)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(124.7850 mm, 82.2300 mm): Pad 15 [/GND] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 80.9800 mm): Pad 14 [unconnected-(U1-IO12-Pad14)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 79.7100 mm): Pad 13 [unconnected-(U1-IO14-Pad13)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 78.4400 mm): Pad 12 [unconnected-(U1-IO27-Pad12)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 77.1700 mm): Pad 11 [unconnected-(U1-IO26-Pad11)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 75.9000 mm): Pad 10 [unconnected-(U1-IO25-Pad10)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 74.6300 mm): Pad 9 [unconnected-(U1-IO33-Pad9)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 73.3600 mm): Pad 8 [unconnected-(U1-IO32-Pad8)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 72.0900 mm): Pad 7 [unconnected-(U1-IO35-Pad7)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 70.8200 mm): Pad 6 [unconnected-(U1-IO34-Pad6)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 69.5500 mm): Pad 5 [unconnected-(U1-SENSOR_VN-Pad5)] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 68.2800 mm): Pad 4 [/LDR_ADC] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(121.7500 mm, 67.0100 mm): Pad 3 [/EN] of U1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.5000 mm, 69.7300 mm): Footprint U1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(115.0000 mm, 65.7300 mm): Footprint C3
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(154.4500 mm, 74.5000 mm): Pad 2 [/GND] of C7 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(152.5500 mm, 74.5000 mm): Pad 1 [/+3V3] of C7 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(153.5000 mm, 74.5000 mm): Footprint C7
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.5000 mm, 65.7300 mm): Footprint C6
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(152.5400 mm, 71.5000 mm): Pad 16 [/+3V3] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(151.2700 mm, 71.5000 mm): Pad 15 [unconnected-(U4-R232-Pad15)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(150.0000 mm, 71.5000 mm): Pad 14 [/RTS] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(148.7300 mm, 71.5000 mm): Pad 13 [/DTR] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(147.4600 mm, 71.5000 mm): Pad 12 [unconnected-(U4-~{DCD}-Pad12)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(146.1900 mm, 71.5000 mm): Pad 11 [unconnected-(U4-~{RI}-Pad11)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(144.9200 mm, 71.5000 mm): Pad 10 [unconnected-(U4-~{DSR}-Pad10)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(143.6500 mm, 71.5000 mm): Pad 9 [unconnected-(U4-~{CTS}-Pad9)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(143.6500 mm, 66.5500 mm): Pad 8 [unconnected-(U4-NC-Pad8)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(144.9200 mm, 66.5500 mm): Pad 7 [unconnected-(U4-NC-Pad7)] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(146.1900 mm, 66.5500 mm): Pad 6 [/UD-] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(147.4600 mm, 66.5500 mm): Pad 5 [/UD+] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(148.7300 mm, 66.5500 mm): Pad 4 [/+3V3] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(150.0000 mm, 66.5500 mm): Pad 3 [/TXD0] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(151.2700 mm, 66.5500 mm): Pad 2 [/RXD0] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(152.5400 mm, 66.5500 mm): Pad 1 [/GND] of U4 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(148.0950 mm, 69.0250 mm): Footprint U4
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(113.8250 mm, 70.7300 mm): Pad 2 [/EN] of R1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(112.0000 mm, 70.7300 mm): Pad 1 [/+3V3] of R1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(112.9125 mm, 70.7300 mm): Footprint R1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(116.0500 mm, 70.7300 mm): Pad 2 [/EN] of C8 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(117.9500 mm, 70.7300 mm): Pad 1 [/GND] of C8 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(117.0000 mm, 70.7300 mm): Footprint C8
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(148.0875 mm, 75.0000 mm): Pad 2 [Net-(Q2-B)] of R6 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(149.9125 mm, 75.0000 mm): Pad 1 [/RTS] of R6 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(149.0000 mm, 75.0000 mm): Footprint R6
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(117.4000 mm, 75.7300 mm): PTH pad 2 [/LDR_ADC] of R8
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 75.7300 mm): PTH pad 1 [/+3V3] of R8
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 75.7300 mm): Footprint R8
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(145.5000 mm, 79.9375 mm): Pad 3 [/IO0] of Q2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(144.5500 mm, 78.0625 mm): Pad 2 [/DTR] of Q2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(146.4500 mm, 78.0625 mm): Pad 1 [Net-(Q2-B)] of Q2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(145.5000 mm, 79.0000 mm): Footprint Q2
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.0000 mm, 82.6675 mm): Pad 2 [Net-(D1-A)] of D1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.0000 mm, 80.7925 mm): Pad 1 [/GND] of D1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(118.0000 mm, 81.7300 mm): Footprint D1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 82.6425 mm): Pad 2 [Net-(D1-A)] of R10 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 80.8175 mm): Pad 1 [/+3V3] of R10 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 81.7300 mm): Footprint R10
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(131.0000 mm, 85.7300 mm): Pad 2 [/+3V3] of R2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(129.1750 mm, 85.7300 mm): Pad 1 [/IO0] of R2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(130.0875 mm, 85.7300 mm): Footprint R2
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(124.6750 mm, 85.7300 mm): Pad 2 [/LDR_ADC] of R9 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(126.5000 mm, 85.7300 mm): Pad 1 [/GND] of R9 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(125.5875 mm, 85.7300 mm): Footprint R9
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(136.0000 mm, 87.1425 mm): Pad 2 [Net-(Q3-B)] of R7 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(136.0000 mm, 85.3175 mm): Pad 1 [/LED_PWM] of R7 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(136.0000 mm, 86.2300 mm): Footprint R7
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.5000 mm, 88.7300 mm): Pad 2 [/GND] of C5 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(127.5000 mm, 89.6800 mm): Footprint C5
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(125.0000 mm, 88.7800 mm): Pad 2 [/GND] of C2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(125.0000 mm, 89.7300 mm): Footprint C2
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(117.8000 mm, 86.7300 mm): Pad 2 [/EN] of SW1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(114.0000 mm, 86.7300 mm): Pad 1 [/GND] of SW1 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(115.9000 mm, 89.8800 mm): Footprint SW1
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(146.8000 mm, 87.2300 mm): Pad 2 [/GND] of SW2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(143.0000 mm, 87.2300 mm): Pad 1 [/IO0] of SW2 on F.Cu
+[items_not_allowed]: Items not allowed (keepout area of U1)
+    Rule: keepout area of U1; error
+    @(144.9000 mm, 90.3800 mm): Footprint SW2
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(117.0000 mm, 72.4100 mm): Reference field of C8
+    @(115.7000 mm, 72.8300 mm): Reference field of R8
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.6500 mm, 81.7300 mm): Reference field of D1
+    @(120.0000 mm, 83.2300 mm): Reference field of U1
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.7350 mm, 89.9913 mm): Segment of C2 on F.Silkscreen
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.7350 mm, 95.4913 mm): Segment of C1 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(119.5000 mm, 107.0800 mm): Reference field of R13
+    @(119.5000 mm, 106.3800 mm): Reference field of R12
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(136.8500 mm, 107.8175 mm): Reference field of R3
+    @(136.2350 mm, 107.9571 mm): Segment of R4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(153.5000 mm, 72.8200 mm): Reference field of C7
+    @(152.5400 mm, 71.5000 mm): Pad 16 [/+3V3] of U4 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+    @(125.0000 mm, 90.6800 mm): Pad 1 [/+3V3] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 89.6800 mm): Reference field of C5
+    @(125.0000 mm, 88.7800 mm): Pad 2 [/GND] of C2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.0000 mm, 96.1800 mm): Pad 1 [/+5V] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(125.8200 mm, 95.2300 mm): Reference field of C4
+    @(125.0000 mm, 94.2800 mm): Pad 2 [/GND] of C1 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 103.2300 mm): Pad 8 [Net-(U2-FB)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 104.2300 mm): Pad 3 [Net-(U2-SW)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 103.2300 mm): Pad 1 [unconnected-(U2-PG-Pad1)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(110.0014 mm, 103.7300 mm): Pad 2 [/+12V] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 103.7300 mm): Pad 7 [Net-(U2-SS)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(110.7507 mm, 103.9800 mm): Reference field of U2
+    @(111.5000 mm, 104.2300 mm): Pad 6 [Net-(U2-EN)] of U2 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(117.0000 mm, 113.5500 mm): Reference field of C9
+    @(115.5000 mm, 113.1425 mm): Pad 1 [/+12V] of R14 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(119.5000 mm, 114.4100 mm): Reference field of C12
+    @(117.9500 mm, 115.2300 mm): Pad 2 [/GND] of C9 on F.Cu
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(121.3000 mm, 63.7300 mm): Polygon of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(155.2200 mm, 114.3100 mm): Polygon of J3 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(135.3800 mm, 118.7300 mm): Segment of J2 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(101.0000 mm, 63.5000 mm): Rectangle on Edge.Cuts
+    @(125.9800 mm, 118.7300 mm): Segment of J2 on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

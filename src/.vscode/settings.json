@@ -1,0 +1,12 @@
+{
+  "idf.currentSetup": "/home/ariasantony/.espressif/v6.0/esp-idf",
+  "idf.flashType": "UART",
+  "idf.port": "/dev/ttyACM0",
+  "idf.customExtraVars": {},
+  "clangd.path": "/home/ariasantony/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=/home/ariasantony/Documents/KiCad/00 Pruebitas/light_automation_module/light_automation_module/src/build"
+  ]
+}

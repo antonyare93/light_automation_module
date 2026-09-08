@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "personal") (type "KiCad") (uri "/home/ariasantony/Documents/KiCad/lib/personal/personal.pretty") (options "") (descr ""))
+)
